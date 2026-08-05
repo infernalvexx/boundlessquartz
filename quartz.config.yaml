@@ -42,7 +42,7 @@ configuration:
         textHighlight: "#b3aa0288"
 plugins:
   - source: "@quartz-community/created-modified-date"
-    enabled: true
+    enabled: false
     options:
       defaultDateType: modified
       priority:
@@ -51,7 +51,7 @@ plugins:
         - filesystem
     order: 10
   - source: "@quartz-community/syntax-highlighting"
-    enabled: true
+    enabled: false
     options:
       theme:
         light: github-light
@@ -128,8 +128,8 @@ plugins:
     enabled: true
     options:
       iterations: 600000
-      passwordField: password
-      unlistWhenEncrypted: false
+      passwordField: boundless
+      unlistWhenEncrypted: true
       outputPath: static/encryptedContentIndex.json
   - source: "@quartz-community/stacked-pages"
     enabled: false
@@ -157,14 +157,14 @@ plugins:
   - source: "@quartz-community/folder-page"
     enabled: true
   - source: "@quartz-community/tag-page"
-    enabled: true
+    enabled: false
   - source: "@quartz-community/explorer"
     enabled: true
     layout:
       position: left
       priority: 50
   - source: "@quartz-community/graph"
-    enabled: true
+    enabled: false
     layout:
       position: right
       priority: 10
@@ -187,7 +187,7 @@ plugins:
       position: beforeBody
       priority: 10
   - source: "@quartz-community/content-meta"
-    enabled: true
+    enabled: false
     layout:
       position: beforeBody
       priority: 20
@@ -214,13 +214,13 @@ plugins:
       priority: 35
       group: toolbar
   - source: "@quartz-community/breadcrumbs"
-    enabled: true
+    enabled: false
     layout:
       position: beforeBody
       priority: 5
       condition: not-index
   - source: "@quartz-community/comments"
-    enabled: false
+    enabled: true
     options:
       provider: giscus
       options: {}
@@ -256,10 +256,10 @@ plugins:
       includeAll: false
       includedProperties:
         - description
-        - tags
+        #- tags
         - aliases
       excludedProperties: []
-      hidePropertiesView: false
+      hidePropertiesView: true
       delimiters: ---
       language: yaml
     order: 5
