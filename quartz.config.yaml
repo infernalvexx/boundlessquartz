@@ -256,7 +256,6 @@ plugins:
       includeAll: false
       includedProperties:
         - description
-        #- tags
         - aliases
       excludedProperties: []
       hidePropertiesView: true
@@ -278,6 +277,14 @@ plugins:
       darkMode: auto
       exportPadding: 20
     order: 50
+  - source: github:quartz-community/encrypted-pages
+    enabled: true
+    options:
+      iterations: 600000
+      passwordField: password
+      unlistWhenEncrypted: false
+      outputPath: static/encryptedContentIndex.json
+    order: 900
 layout:
   groups:
     toolbar:
