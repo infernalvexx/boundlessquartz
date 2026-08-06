@@ -124,13 +124,6 @@ plugins:
     enabled: true
     options: {}
     order: 45
-  - source: "@quartz-community/encrypted-pages"
-    enabled: true
-    options:
-      iterations: 600000
-      passwordField: boundless
-      unlistWhenEncrypted: true
-      outputPath: static/encryptedContentIndex.json
   - source: "@quartz-community/stacked-pages"
     enabled: false
     layout:
@@ -281,7 +274,7 @@ plugins:
     enabled: true
     options:
       iterations: 600000
-      passwordField: password
+      passwordField: boundless
       unlistWhenEncrypted: false
       outputPath: static/encryptedContentIndex.json
     order: 900
