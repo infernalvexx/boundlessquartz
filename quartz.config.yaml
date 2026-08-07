@@ -1,4 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
+# quartz.config.yaml
+
 configuration:
   pageTitle: Quartz 5
   pageTitleSuffix: ""
@@ -40,6 +42,7 @@ configuration:
         tertiary: "#84a59d"
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#b3aa0288"
+
 plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: false
@@ -87,7 +90,8 @@ plugins:
     enabled: true
     options:
       markdownLinkResolution: shortest
-    order: 60
+      prettyLinks: true
+    order: 31
   - source: "@quartz-community/description"
     enabled: true
     order: 70
@@ -278,6 +282,7 @@ plugins:
       unlistWhenEncrypted: false
       outputPath: static/encryptedContentIndex.json
     order: 900
+
 layout:
   groups:
     toolbar:
