@@ -1,4 +1,7 @@
---- title: Ch3. Combat, Exploration & Social Events ---
+---
+title: Ch3. Combat, Exploration & Social Events
+---
+
 Ch3. Combat, Exploration & Social Events
 	[[1. Abilities]]
 	[[2. Skills]]

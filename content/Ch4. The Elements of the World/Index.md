@@ -1,4 +1,6 @@
---- title: Ch4. The Elements of the World ---
+---
+title: Ch4. The Elements of the World
+---
 Ch4. The Elements of the World
 	[[1. The Elementals of Boundless]]
 	[[2. Elemental Plane]]
