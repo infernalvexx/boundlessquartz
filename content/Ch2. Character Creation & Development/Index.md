@@ -1,3 +1,4 @@
+--- title: Ch2. Character Creation & Development ---
 Ch2. Character Creation & Development
 	[[1. Character Sheet]]
 	[[2. Practitioners - Cast, Wield, Shape]]
