@@ -224,21 +224,21 @@ plugins:
       position: beforeBody
       priority: 5
       condition: not-index
-  - source: github-community/comments
-    enabled: true
-    options:
-      provider: giscus
-      repo: "infernalvexx/boundlessquartz"
-      repoId: "R_kgDOTsmMsg"
-      category: "Announcements"
-      categoryId: "DIC_kwDOTsmMss4DCt89"
-      mapping: "pathname"
-      strict: true
-      reactionsEnabled: true
-      inputPosition: "bottom"
-    layout:
-      position: afterBody
-      priority: 10
+ # - source: github-community/comments
+    #enabled: true
+    #options:
+      #provider: giscus
+      #repo: "infernalvexx/boundlessquartz"
+      ##repoId: "R_kgDOTsmMsg"
+      #category: "Announcements"
+      #categoryId: "DIC_kwDOTsmMss4DCt89"
+      #mapping: "pathname"
+      #strict: true
+     # reactionsEnabled: true
+    #  inputPosition: "bottom"
+   # layout:
+  #    position: afterBody
+  #    priority: 10
   - source: "@quartz-community/footer"
     enabled: true
     options:
