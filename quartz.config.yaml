@@ -225,18 +225,18 @@ plugins:
       priority: 5
       condition: not-index
   - source: github-community/comments
-  enabled: true
-  options:
-    provider: giscus
+    enabled: true
     options:
-      repo: "your-github-username/your-quartz-repo-name"
-      repoId: "R_kgD..."
-      category: "Announcements"
-      categoryId: "DIC_kwD..."
-      mapping: "pathname"
-      strict: true
-      reactionsEnabled: true
-      inputPosition: "bottom"
+        provider: giscus
+        options:
+            repo: "your-github-username/your-quartz-repo-name"
+            repoId: "R_kgD..."
+            category: "Announcements"
+            categoryId: "DIC_kwD..."
+            mapping: "pathname"
+            strict: true
+            reactionsEnabled: true
+            inputPosition: "bottom"
   layout:
     position: afterBody
     priority: 10
@@ -245,7 +245,6 @@ plugins:
     options:
       links:
         GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
     layout:
       position: footer
       priority: 50
