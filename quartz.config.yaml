@@ -228,8 +228,10 @@ plugins:
     enabled: true
     provider: giscus
     options:
-        category: Announcements
-        categoryID:
+        repo: "infernalvexx/boundlessquartz"
+        repoID: "R_kgD..."
+        category: "Announcements"
+        categoryID: "DIC_kwD..."
     layout:
       position: afterBody
       priority: 10
