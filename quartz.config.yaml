@@ -2,14 +2,14 @@
 # quartz.config.yaml
 
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: Boundless Handbook
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
-    provider: plausible
+    provider: giscus
   locale: en-US
-  baseUrl: boundlesshandbook.github.io
+  baseUrl: https://infernalvexx.github.io/boundlessquartz/
   ignorePatterns:
     - private
     - templates
