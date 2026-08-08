@@ -9,7 +9,7 @@ configuration:
   analytics:
     provider: giscus
   locale: en-US
-  baseUrl: "infernalvexx.github.io/boundlessquartz"
+  baseUrl: "infernalvexx.github.io/Boundlessquartz"
   ignorePatterns:
     - private
     - templates
