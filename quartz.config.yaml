@@ -43,6 +43,10 @@ configuration:
         tertiary: "#84a59d"
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#b3aa0288"
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 plugins:
   - source: "@quartz-community/created-modified-date"
@@ -147,7 +151,7 @@ plugins:
   - source: "@quartz-community/og-image"
     enabled: true
   - source: "@quartz-community/cname"
-    enabled: true
+    enabled: false
   - source: "@quartz-community/canvas-page"
     enabled: true
   - source: "@quartz-community/content-page"
