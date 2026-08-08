@@ -224,17 +224,22 @@ plugins:
       position: beforeBody
       priority: 5
       condition: not-index
-  - source: "@quartz-community/comments"
-    enabled: true
+  - source: github-community/comments
+  enabled: true
+  options:
     provider: giscus
     options:
-        repo: "infernalvexx/boundlessquartz"
-        repoID: "R_kgD..."
-        category: "Announcements"
-        categoryID: "DIC_kwD..."
-    layout:
-      position: afterBody
-      priority: 10
+      repo: "your-github-username/your-quartz-repo-name"
+      repoId: "R_kgD..."
+      category: "Announcements"
+      categoryId: "DIC_kwD..."
+      mapping: "pathname"
+      strict: true
+      reactionsEnabled: true
+      inputPosition: "bottom"
+  layout:
+    position: afterBody
+    priority: 10
   - source: "@quartz-community/footer"
     enabled: true
     options:
