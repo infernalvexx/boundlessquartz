@@ -228,8 +228,6 @@ plugins:
     enabled: true
     provider: giscus
     options:
-        repo: infernalvexx/boundlessquartz
-        repoID: boundlessquartz
         category: Announcements
         categoryID:
     layout:
