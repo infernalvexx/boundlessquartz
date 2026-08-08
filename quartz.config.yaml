@@ -161,6 +161,9 @@ plugins:
     layout:
       position: left
       priority: 50
+    options:
+        mapFoldersToPages: false
+        useFolderGroups: true
   - source: "@quartz-community/graph"
     enabled: false
     layout:
