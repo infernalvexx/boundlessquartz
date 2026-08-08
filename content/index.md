@@ -25,7 +25,7 @@ Ch3. Combat, Exploration & Social Events
 	[[7. Flight Bands]]
 	[[8. Flight Tools]]
 
-Ch4. The Elements of the World
+Ch4. Elements of the World
 	[[1. The Elementals of Boundless]]
 	[[2. Elemental Plane]]
 	[[3. Birth and Death of the Elements]]
